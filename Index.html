@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <section>
-    <h3>1) Создать страницу, которая спрашивает имя у пользователя и выводит его с помощью функции.</h3>
-</section>
-<section>
-    <h3>2) Перепишите код, используя конструкцию switch-case, запрашивая возраст пользователя через диалоговое окно.
-    </h3>
-</section>
-<script language="JavaScript">
+        <h3>1) Создать страницу, которая спрашивает имя у пользователя и выводит его с помощью функции.</h3>
+    </section>
+    <section>
+        <h3>2) Перепишите код, используя конструкцию switch-case, запрашивая возраст пользователя через диалоговое окно.
+        </h3>
+    </section>
+    <script language="JavaScript">
 
-    let nm = prompt(`Введите как вас зовут?`,`Ваше имя...`);
-    alert(`Тебя зовут ${nm} !`);
-</script>
-<script language="JavaScript">
-let age = prompt(`Сколько тебе лет?`, 100);
-switch (age) {
-    case `18`:
-        alert(`Всё можно`);
-        break;
-    case `10`:
-        alert(`Вам надо учить уроки`);
-        break;
-    case `30`:
-        alert(`СПАТЬ! Завтра работать,раб!`) 
-        break;
+        let nm = prompt(`Введите как вас зовут?`, `Ваше имя...`);
+        alert(`Тебя зовут ${nm} !`);
+    </script>
+    <script language="JavaScript">
+        let age = prompt(`Сколько тебе лет?`, 100);
+        switch (age) {
+            case `18`:
+                alert(`Всё можно`);
+                break;
+            case `10`:
+                alert(`Вам надо учить уроки`);
+                break;
+            case `30`:
+                alert(`СПАТЬ! Завтра работать,раб!`)
+                break;
 
-    default:
-        alert(`Тебе ${age} !!! Мы не можем вам приказывать что делать!`)
-        break;
-}
-</script>
+            default:
+                alert(`Тебе ${age} !!! Мы не можем вам приказывать что делать!`)
+                break;
+        }
+    </script>
 </body>
+
 </html>
